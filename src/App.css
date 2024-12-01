@@ -1,0 +1,106 @@
+
+*{
+  margin: 0;
+}
+
+
+
+
+
+button{
+ all:unset;
+ padding: 8px 16px;
+ background-color: rgb(212, 20, 6);
+ height: 30px;
+ color: white;
+ /* border-radius: 15px; */
+  /* margin-right: 20px; */
+}
+
+
+nav {
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 100px;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+nav img{
+  padding-left:20px;
+  height: 50px;
+}
+
+
+.container{
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+
+/* hero section  */
+
+.hero_content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.hero{
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+
+
+.hero h1{
+  font:800;
+  font-size: 100px;
+  line-height: 108px;
+
+}
+.hero p{
+  font:300;
+  color: rgb(99, 97, 98);
+ 
+}
+
+.hero_button{
+  display: flex;
+  gap: 40px;
+}
+
+
+.secondry_btn{
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+
+.shopping p{
+  font-size: 14px;
+  /* margin-bottom: 1px;  */
+}
+
+
+.hero_icons{
+  display: flex;
+  gap: 1px;
+}
+
+
+
+.hero_image img{
+  height: 550px;
+}
